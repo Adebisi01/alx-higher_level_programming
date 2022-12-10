@@ -4,7 +4,9 @@ number = random.randint(-10000, 10000)
 last = int(str(number)[-1])
 if number < 0:
     last = last * -1
-print(f"Last digit of {number} is {last} and ",end='')
+else:
+    last = last
+print(f"Last digit of {number} is {last} and ", end='')
 if last > 5:
     print("is greater than 5")
 elif last == 0:
