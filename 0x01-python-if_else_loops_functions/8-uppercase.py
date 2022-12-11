@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def uppercase(charac):
-    for i in range(0, len(charac) + 1):
+    for i in range(0, len(charac)):
         if ord(charac[i]) >= 97 and ord(charac[i]) <= 122:
             char = ord(charac[i]) - 32
         else:
