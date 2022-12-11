@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 def remove_char_at(str, n):
+    string = str
     if n < 0:
-        return str
-    elif len(str) >= n:
-        return str
+        return string
+    elif len(string) >= n:
+        return string
     else:
-        newString = str.replace(str[n], '')
+        newString = string.replace(string[n], '')
         return newString
