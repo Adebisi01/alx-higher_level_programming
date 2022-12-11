@@ -6,4 +6,4 @@ def uppercase(charac):
         else:
             char = ord(charac[i])
         print("{}".format(chr(char)), end='')
-    print("{}".format('\n))
+    print("{}".format('\n'))
